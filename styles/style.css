@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+    font-family: "lato", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* this is pseudo element */
+.para_1::first-letter {
+  font-size: 1.8em;
+  color: black;
+}
+
+.para_1::before {
+  content: "This is before ";
+  color: blue;
+
+}
+
+.para_1::after {
+  content: "this is after ";
+  color: red;
+}
+
+/* nav bar custo */
+.navbar {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(211, 211, 211, 0.5);
+  z-index: 1000;
+
+}
+
+.navbar>a {
+  margin: 0px 20px;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  height: 40px;
+  padding-top: 10px;
+
+}
+
+.navbar>a:hover {
+  background-color: rgba(255, 255, 255, 0.705);
+  padding: 10px;
+
+}
+.navbar>a:visited{
+  color: green;
+}
+
+
+/* insert bg image 1 */
+.bgimg_1 {
+  background-image: url("../src/5f40bb50-3362-430e-aeb0-b6cd76c334b3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.imglogo {
+
+  color: white;
+
+}
+
+/* bg image text positioning */
+.txtcenter {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 400px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  letter-spacing: 08px;
+  background-color: rgb(109, 108, 108);
+  position: absolute;
+}
+
+
+/* about section  */
+#ABOUT {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.center_container {
+  width: 100%;
+  height: auto;
+  /* margin: 0 auto; */
+}
+
+
+.skill {
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.skill-name {
+  margin-bottom: 5px;
+}
+
+.aboutme {
+  margin: 50px 10px;
+  opacity: 60%;
+
+}
+
+.para_1 {
+  text-align: justify;
+  font-family: sans-serif;
+  line-height: 1.8rem;
+  padding-bottom: 50px;
+}
+
+
+.headingaboutme {
+  text-align: center;
+  line-height: 4rem;
+}
+
+.img2_myname {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-left: 15%;
+  padding-top: 50px;
+
+}
+
+
+.my_Name {
+  display: flex;
+  gap: 20px;
+
+}
+
+.my_Name>img {
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+
+}
+
+.reallygd {
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.reallygood {
+  font-family: sans-serif;
+}
+
+.skills>p {
+  letter-spacing: 10px;
+}
+
+/* projects skills */
+.skills>.file {
+  width: 100%;
+  height: 30px;
+  background-color: gray;
+
+
+}
+
+.aboutbottom {
+  width: 100%;
+  height: 600px;
+}
+
+.about_child:hover{
+  background-color: black;
+  transition: 1s;
+}
+
+.about_child {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(121, 94, 94);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 2rem;
+  margin-top: 50px;
+}
+
+.bottom_1,
+.bottom_2,
+.bottom_3,
+.bottom_4 {
+  color: white;
+  text-align: center;
+}
+
+/* skills columns */
+.partnar,
+.project,
+.happyclint,
+.meeting {
+  font-size: 1.6rem;
+}
+
+/* insert bg image 2 */
+.bgimg_2 {
+  background-image: url("../src/imag2\(1\).jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 400px;
+  /* min-height: 100vh; */
+  position: relative;
+  opacity: 50%;
+}
+
+
+
+/* portfolio section */
+.portfolio {
+  position: absolute;
+  /* top: 40%; */
+  left: 35%;
+  bottom: 40%;
+  font-size: 2rem;
+  margin-top: 300px;
+  font-family: sans-serif;
+  color: rgb(205, 255, 130);
+}
+
+.mywork {
+  width: 100%;
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myworktext {
+  text-align: center;
+  color: rgb(90, 90, 90);
+  font-family: sans-serif;
+}
+
+.myworktext>h3 {
+  padding-bottom: 20px;
+}
+
+.myworktext>p {
+  line-height: 1.5rem;
+}
+
+.table_container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+/* display grid property */
+
+.tableimg {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 200px; */
+  gap: 10px;
+  width: 100%;
+  margin: 100px 0px;
+  padding: 0 10px;
+}
+
+.imgcolumns>img {
+  width: 100%;
+  height: 200px;
+  border: 1px solid;
+
+}
+
+.imgcolumns>img:hover {
+  opacity: 50%;
+}
+
+
+.loadmore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.load_more_button {
+  width: 120px;
+  height: 40px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+}
+
+.load_more_button:hover {
+  background-color: rgb(170, 163, 163);
+}
+
+/* insert bg image 3 */
+
+.bgimg_3 {
+  background: url("../src/image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  opacity: 60%;
+}
+
+/* bg image text positioning */
+.contact {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-family: sans-serif;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  color: white;
+
+}
+
+/* this is contact form */
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.workcontainer {
+  line-height: 2rem;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.textcenter {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+
+}
+
+.textcenter_2 {
+  font-family: sans-serif;
+}
+
+.text_main_container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.imgwithtext {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.input_img_text>img {
+  /* height: 100px; */
+  width: 300px;
+  height: auto;
+  padding: 10px;
+
+}
+
+.input_assid {
+  font-family: sans-serif;
+  width: 100%;
+  padding-left: 20px;
+  line-height: 2rem;
+}
+
+form>input {
+  width: 45%;
+  height: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  outline: none;
+
+}
+
+/* hover and box shadow */
+form>input:hover{
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.253), 0 4px 10px 0 rgba(0, 0, 0, 0.199);
+
+}
+
+
+/* this is pseudo element */
+
+input::placeholder {
+  color: rgb(128, 128, 128);
+  font-style: italic;
+}
+
+.message_buttons {
+  width: 130px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  margin-right: 30px;
+  outline: none;
+  float: right;
+  cursor: pointer;
+
+}
+
+/* animation property */
+
+.message_buttons{
+  animation: messsagebtn 1s linear 500ms infinite;
+}
+
+@keyframes messsagebtn {
+  form{
+    width: 1px;
+    height: 1px;
+  }
+  to{
+   scale: 1.2;
+    background-color: red;
+  }
+}
+
+.message_buttons:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+
+}
+
+/* footer sec */
+
+.footer_sec {
+  width: 100%;
+  height: 300px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+
+.footer_sec:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.ft_buttons {
+  width: 120px;
+  height: 40px;
+}
+
+.ft_buttons>a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+
+}
+
+
+.ft_buttons>a:hover {
+  color: white;
+}
+
+
+.ft_buttons:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.social_icon>p>i {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
