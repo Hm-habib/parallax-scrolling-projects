@@ -43,7 +43,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        width: 125%;
+        width: 100%;
         min-height: 100vh;
         position: relative;
         margin: 0 auto;
@@ -64,7 +64,7 @@
     }
 
     #ABOUT {
-        width: 125%;
+        width: 100%;
         margin: 0 auto;
         padding: 10px;
     }
@@ -142,8 +142,6 @@
         /* min-height: 100vh; */
         position: relative;
         opacity: 50%;
-
-
     }
 
     .portfolio {
@@ -155,12 +153,12 @@
         margin-top: 100px;
         font-family: sans-serif;
         color: rgb(205, 255, 130);
+
     }
 
     .mywork {
         width: 100%;
         height: 200px;
-
         display: flex;
         align-items: center;
         justify-content: center;
@@ -181,7 +179,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         /* grid-template-rows: 200px; */
         gap: 10px;
-        width: 125%;
+        width: 100%;
         margin: 100px 0px;
         padding: 0 10px;
     }
@@ -207,7 +205,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: scroll;
-        width: 125%;
+        width: 100%;
         height: 300px;
         position: relative;
         opacity: 60%;
@@ -271,7 +269,7 @@
 
     .input_img_text>img {
         /* height: 100px; */
-        width: 120%;
+        width: 100%;
         height: auto;
         padding: 10px;
 
@@ -279,7 +277,7 @@
 
     .input_assid {
         font-family: sans-serif;
-        width: 120%;
+        width: 100%;
         padding-left: 20px;
         line-height: 2rem;
     }
@@ -296,7 +294,7 @@
     }
 
     .footer_sec {
-        width: 120%;
+        width: 100%;
         height: 300px;
         background-color: gray;
         display: flex;
