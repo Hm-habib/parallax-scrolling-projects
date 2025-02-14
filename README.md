@@ -10,8 +10,7 @@ In this project we will see how to make a web page parallax scroll. And it is fo
 
 
 ## LIVE LINK :
-
-https://hm-habib.github.io/css-parallax-scrolling-projects/
+https://hm-habib.github.io/parallax-scrolling-projects/index.html
 
 
 ## Environment Setup:

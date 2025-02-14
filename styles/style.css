@@ -86,7 +86,7 @@ body{
   position: absolute;
   top: 50%;
   left: 40%;
-  width: 400px;
+  width: fit-content;
   height: 50px;
   color: white;
   text-align: center;
@@ -94,6 +94,7 @@ body{
   letter-spacing: 08px;
   background-color: rgb(109, 108, 108);
   position: absolute;
+  padding: .8rem;
 }
 
 
@@ -467,8 +468,8 @@ input::placeholder {
 }
 
 .footer_sec:hover {
-  background-color: lightgray;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .ft_buttons {
